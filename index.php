@@ -10,7 +10,7 @@ include("config.php");
 		  echo $fname = $row['fname']."&nbsp";
 		  echo $name = $row['name']."&nbsp;-&nbsp";
 		  echo $bdate = $row['bdate'];
-		  
+		  Удалить
 	  }
 	 ---*/ 
 	  $sql='SELECT * FROM people';
