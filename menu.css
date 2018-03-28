@@ -1,0 +1,30 @@
+    p {
+	font-family: BirchCTT;
+	color: #ffffff;
+	font-size:20px;	
+	position:absolute;
+	}	
+	p:hover{
+	color:#0479f8;
+	animation:bounce 0.5s;
+	}
+	#main {
+	left: 650px;
+	top: 25px;
+	}
+	#main2 {
+	left: 862px;
+	top: 25px;
+	}
+	#main3 {
+	left: 987px;
+	top: 25px;	
+	}
+    #main4 {
+	left: 1150px;
+	top: 25px;	
+	}
+	#main5 {
+	left: 500px;
+	top: 25px;	
+	}

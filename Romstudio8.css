@@ -1,0 +1,249 @@
+﻿/*--Header--*/
+	*{
+	margin:0;
+	padding:0;
+    }
+    body {
+    width: 1400px;
+    height: 4132px;
+    background-image:url(fon.jpg);
+    background-repeat: no-repeat;
+	background-position:absolute;
+	position: absolute;
+    margin:auto;
+	left:0;
+	right:0; 
+    }
+    .fon2 {
+	background-image:url(banner2.png);
+    background-repeat: no-repeat;
+    width:1400px;
+	height:74px;
+	position: absolute;
+    }
+    .head {
+	background-image:url(head.png);
+    background-repeat: no-repeat;
+    width:1400px;
+	height:72px;
+	position: absolute;
+    }	
+	.logo {
+	background-image:url(logo.png);
+    background-repeat: no-repeat;
+    width:171px;
+	height:45px;
+	position: absolute;
+	top:14px;
+	left: 157px;
+    }
+   
+    p {
+	font-family: BirchCTT;
+	color: #ffffff;
+	font-size:20px;	
+	position:absolute;
+	}	
+	p:hover{
+	color:#0479f8;
+	animation:bounce 0.5s;
+	}
+	#main {
+	left: 650px;
+	top: 25px;
+	}
+	#main2 {
+	left: 862px;
+	top: 25px;
+	}
+	#main3 {
+	left: 987px;
+	top: 25px;	
+	}
+    #main4 {
+	left: 1150px;
+	top: 25px;	
+	}
+	#main5 {
+	left: 500px;
+	top: 25px;	
+	}
+	@keyframes bounce {
+ 0%, 20%, 60%, 100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+ }
+
+ 40% {
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+ }
+
+ 80% {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+ }
+}
+    /*--Content--*/
+    h1 {
+	font-family:Tahoma,Verdana;
+	color: #c30406;
+	font-size:33px;	
+	position:absolute;
+	top: 96px;
+	left: 290px;
+	font-style: bold;
+	}	
+    span {
+	font-family:Tahoma,Verdana;
+	font-size:20px;	
+	position:absolute;
+	}	
+	.p {
+	top: 150px;
+	left: 255px;
+	}
+    .content {
+	background-image:url(kid.png);
+    background-repeat: no-repeat;
+    width:890px;
+	height:584px;
+	position: absolute;
+	top:352px;
+	left: 255px;
+    }
+    .p-2 {
+	top: 945px;
+	left: 255px;
+	}
+    .content2 {
+	background-image:url(kid2.png);
+    background-repeat: no-repeat;
+    width:890px;
+	height:656px;
+	position: absolute;
+	top:1390px;
+	left: 255px;
+    }
+	.p-3 {
+	top: 2060px;
+	left: 255px;
+	}
+	h2 {
+	font-family:Tahoma,Verdana;
+	color: #c30406;
+	font-size:28px;	
+	position:absolute;
+	font-style: bold;
+	top:2245px;
+	left:460px;
+	} 
+	.p-4 {
+	top: 2294px;
+	left: 255px;
+	}
+	ul  	{
+	font-family:Tahoma,Verdana;
+	font-size:20px;	
+	list-style-type: disc;
+	position: absolute;
+	top: 2390px;
+	left: 280px;
+	}
+	.content3 {
+	background-image:url(clothing.png);
+    background-repeat: no-repeat;
+    width:890px;
+	height:1272px;
+	position: absolute;
+	top:2610px;
+	left: 255px;
+    }
+    .p-5 {
+	top: 3875px;
+	left: 255px;
+	}
+    .back 	{
+	font-family:Tahoma,Verdana;
+	font-size:25px;	
+	color:#c30406;
+	list-style-image:url(direc.png);
+	font-style: bold;
+	position: absolute;
+	left: 300px;
+	top:3940px;
+	}
+	/*--Footer--*/
+	.foot2 {
+	background-image:url(foot.png);
+    background-repeat: no-repeat;
+    width:1400px;
+	height:137px; 
+	position: absolute;
+	top: 3995px;
+	}
+	.logo3 {
+	background-image:url(logo.png);
+    background-repeat: no-repeat;
+    width:171px;
+	height:45px;
+	position: absolute;
+	top:4040px;
+	left: 150px;
+    }
+	#mail2 {
+	font-family: Tahoma;
+	color: #ffffff;
+	font-size:16px;	
+	position:absolute;
+	top:4050px;
+	left: 390px;
+	}
+	#number2 {
+	font-family: Tahoma;
+	color: #ffffff;
+	font-size:16px;	
+	position:absolute;
+	top:4050px;
+	left: 610px;
+	}
+	#adress2 {
+	font-family: Tahoma;
+	color: #ffffff;
+	font-size:16px;	
+	position:absolute;
+	top:4050px;
+	left: 790px;
+	}
+	#social2 {
+	font-family: Tahoma;
+	color: #ffffff;
+	font-size:16px;	
+	position:absolute;
+	top:4050px;
+	left: 1060px;
+	}
+	#soc {
+    background-repeat: no-repeat;
+    width:26px;
+	height:26px;
+	position: absolute;
+	top:4075px;
+	}
+	.fb2 {
+	background-image:url(facebook.png);
+	left: 1060px;
+	}
+	.tw2 {
+	background-image:url(twitter.png);
+	left: 1095px;
+	}
+	.vk2 {
+	background-image:url(vk.png);
+	left: 1130px;
+	}
+	.yt2 {
+	background-image:url(youtube.png);
+	left: 1165px;
+	}
+	

@@ -1,0 +1,32 @@
+    .service {
+	background-image:url(serv.png);
+    background-repeat: no-repeat;
+    width:305px;
+	height:323px;
+	position: absolute;
+	border: 1px solid #c9c7c7;
+	}
+	.service:hover {
+	background-image:url(serv.png);
+    background-repeat: no-repeat;
+    width:305px;
+	height:323px;
+	position: absolute;
+	border: 1px solid #c9c7c7;
+	box-shadow: 0 0 15px rgba(0,0,0,15); 
+	}
+	.content {
+    background-repeat: no-repeat;
+    width:243px;
+	height:161px;
+	position: absolute;
+	top:27px;
+	left: 31px;
+	}
+	#family {
+	font-family: Tahoma,TimesNewRoman;
+	color: #000000;
+	font-size:15px;	
+	position:absolute;
+	}
+	

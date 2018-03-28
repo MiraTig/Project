@@ -1,0 +1,252 @@
+/*--Header--*/
+	*{
+	margin:0;
+	padding:0;
+    }
+    body {
+    width: 1400px;
+    height: 985px;
+    background-image:url(images/fon.jpg);
+    background-repeat: no-repeat;
+	background-position:absolute;
+	position: absolute;
+    margin:auto;
+	left:0;
+	right:0; 
+    }
+    .fon2 {
+	background-image:url(images/banner2.png);
+    background-repeat: no-repeat;
+    width:1400px;
+	height:74px;
+	position: absolute;
+	top: 0;
+    }
+    .head {
+	background-image:url(images/head.png);
+    background-repeat: no-repeat;
+    width:1400px;
+	height:72px;
+	position: absolute;
+	top: 0;
+    }	
+	.logo {
+	background-image:url(images/logo.png);
+    background-repeat: no-repeat;
+    width:171px;
+	height:45px;
+	position: absolute;
+	top:14px;
+	left: 157px;
+    }
+   
+    p {
+	font-family: BirchCTT;
+	color: #ffffff;
+	font-size:20px;	
+	position:absolute;
+	}	
+	p:hover{
+	color:#0479f8;
+	animation:bounce 0.5s;
+	}
+	#main {
+	left: 650px;
+	top: 25px;
+	}
+	#main2 {
+	left: 862px;
+	top: 25px;
+	}
+	#main3 {
+	left: 987px;
+	top: 25px;	
+	}
+    #main4 {
+	left: 1150px;
+	top: 25px;	
+	}
+	#main5 {
+	left: 500px;
+	top: 25px;	
+	}
+	@keyframes bounce {
+ 0%, 20%, 60%, 100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+ }
+
+ 40% {
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+ }
+
+ 80% {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+ }
+}
+	/*--Content--*/
+	#content {
+	width: 1400px;
+	height: 774px;
+	background-color: white;
+	position: absolute;
+	top: 74px;
+	}
+	#h1 {
+	font-family: TimesNewRoman;
+	color: #000000;
+	font-size:30px;	
+	position:absolute;
+	top: 40px;
+	left: 410px;
+	}
+	.map {
+	position: absolute;
+	top:101px;
+	}
+	#infocontact {
+	background-color:#0479f8;
+    width:487px;
+	height:632px;
+	position: absolute;
+	top:101px;
+	left: 912px;
+	}
+	#contact {
+	font-family: TimesNewRoman;
+	color: #fff;
+	font-size:30px;	
+	position:absolute;
+	top: 44px;
+	left: 148px;
+	}
+	.fon3 {
+	background-image:url(images/band.png);
+    background-repeat: no-repeat;
+    width:92px;
+	height:5px;
+	position: absolute;
+	top: 105px;
+	left: 188px;
+	}
+	.contact {
+    background-repeat: no-repeat;
+    width:60px;
+	height:60px;
+	position: absolute;
+	left: 47px;
+	}
+	#cont {
+	background-image:url(images/call.png);
+	top:191px;
+	}
+	#detail {
+	font-family: TimesNewRoman;
+	color: #fff;
+	font-size:20px;	
+	position:absolute;
+	left: 128px;
+	}
+	.detail {
+	top:150px;
+	}
+	#cont2 {
+	background-image:url(images/mail.png);
+	top:330px;
+	}
+	.detail2 {
+	top:340px;
+	}
+	#cont3 {
+	background-image:url(images/place.png);
+	top:429px;
+	}
+	.detail3 {
+	top:439px;
+	}
+	#contact2 {
+	position: absolute;
+	top:530px;
+	left:100px;
+    font-family: TimesNewRoman;
+	color: #fff;
+	font-size:30px;	
+
+	}
+	/*--Footer--*/
+	.foot2 {
+	background-image:url(images/foot.png);
+    background-repeat: no-repeat;
+    width:1400px;
+	height:137px;
+	position: absolute;
+	top: 848px;
+	}
+	.logo3 {
+	background-image:url(images/logo.png);
+    background-repeat: no-repeat;
+    width:171px;
+	height:45px;
+	position: absolute;
+	top:/*1333px;*/45px;
+	left: 150px;
+    }
+	#mail2 {
+	font-family: Tahoma;
+	color: #ffffff;
+	font-size:16px;	
+	position:absolute;
+	top:45px;
+	left: 390px;
+	}
+	#number2 {
+	font-family: Tahoma;
+	color: #ffffff;
+	font-size:16px;	
+	position:absolute;
+	top:50px;
+	left: 610px;
+	}
+	#adress2 {
+	font-family: Tahoma;
+	color: #ffffff;
+	font-size:16px;	
+	position:absolute;
+	top:50px;
+	left: 790px;
+	width: 300px;
+	height: 50px;
+	}
+	#social2 {
+	font-family: Tahoma;
+	color: #ffffff;
+	font-size:16px;	
+	position:absolute;
+	top:50px;
+	left: 1060px;
+	}
+	#soc {
+    background-repeat: no-repeat;
+    width:26px;
+	height:26px;
+	position: absolute;
+	top:75px;
+	}
+	.fb2 {
+	background-image:url(images/facebook.png);
+	left: 1060px;
+	}
+	.tw2 {
+	background-image:url(images/twitter.png);
+	left: 1095px;
+	}
+	.vk2 {
+	background-image:url(images/vk.png);
+	left: 1130px;
+	}
+	.yt2 {
+	background-image:url(images/youtube.png);
+	left: 1165px;
+	}

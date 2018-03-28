@@ -1,0 +1,107 @@
+<html>
+		<head>
+			<meta charset="utf-8">
+			 <title>Romstudio2</title>
+			  <link rel="stylesheet" href="Romstudio4.css">
+		</head>
+		<body >
+			<header>
+				<div class="fon2"> </div>
+				<div class="head"> </div>
+				<div class="logo"> </div>
+				<div class="main"></div>
+				<nav>
+					<a href="index.php"><p  id="main" ><b> ГЛАВНАЯ </b></p></a>
+					<a href="indexhall.php"><p id="main"><b> АРЕНДА СТУДИИ </b></p></a>
+					<a href="Romstudio3.php"><p id="main"><b> УСЛУГИ </b></p></a>
+					<a href="Romstudio4.php"><p id="main"><b> ПОРТФОЛИО </b></p></a>
+					<a href="Romstudio5.php"><p id="main"><b> КОНТАКТЫ </b></p></a>
+					
+					<?php 
+					if(isset($_SESSION['id'])){
+					?>
+					<a href="logout.php"> <p><b>ВЫХОД</b></p></a>
+					<a href="newdata.php"> <p><b> СОЗДАТЬ НОВОСТЬ </b></p></a>
+					<?php 
+					}else{
+					?>
+					<a href="login.php"><p id="main"> <b>ВХОД</b></p></a>
+					<?php } ?>
+				</nav>
+				<span id="maintit" ><?php echo $caption;?></span>
+			</header>
+<content>
+<span id="h1"><b>ПОРТФОЛИО</b></span>
+<span id="h2"><b>ПРИМЕРЫ РАБОТ, СНЯТЫХ НАШЕЙ КОМАНДОЙ В СТУДИИ И ЗА ПРЕДЕЛАМИ</b></span>
+
+<div class="bsl6"><ul class="body_slides">
+	<li></li>
+<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>	
+</div>
+
+<div class="bsl7"><ul class="body_slides2">
+	<li></li>
+<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>	
+</div>
+<div class="opacity"></div>
+<div class="bsl8"><ul class="body_slides3">
+	<li></li>
+<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>	
+</div>
+</content>
+<footer>
+<div class="foot2"></div>
+<div class="logo3"></div>
+<div id="mail2"><b>Пишите нам:</br>Romstudio@gmail.com</b></div>
+<div id="number2"><b>Звоните</br>+996 773916356</b></div>
+<div id="adress2"><b>Приходите:</br>Бишкек, ул.Киевская 485</b></div>
+<div id="social2"><b>Мы в соц.сетях</b></div>
+<div class="fb2"></div>
+<div class="tw2"></div>
+<div class="vk2"></div>
+<div class="yt2"></div>
+</footer>
+</body>
+</html>
